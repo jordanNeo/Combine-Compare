@@ -1,0 +1,47 @@
+\documentclass[times, twoside, watermark]{zHenriquesLab-StyleBioRxiv}
+\usepackage{blindtext}
+
+% Please give the surname of the lead author for the running footer
+\leadauthor{Lee} 
+
+\begin{document}
+
+\title{Combine Compare: Understanding Speed Through College Athletics}
+\shorttitle{Understanding Speed}
+
+% Use letters for affiliations, numbers to show equal authorship (if applicable) and to indicate the corresponding author
+\author[1,\Letter]{Jordan Lee}
+
+\affil[1]{New Jersey Institute of Technology}
+
+\maketitle
+\begin{center}
+\href{URL}{DASH APP}
+\newpage
+\href{URL}{VIDEO DEMO}
+\end{center}
+\newpage
+
+\section*{Abstract}
+\begin{abstract}
+Speed is an elusive trait, because sprinting speed is neurological in nature there are currently no ways of getting definite metrics on many factors and traits related to speed. It is unlike a trait like strength which is partly neurological but also heavily related to muscle size, which can be increased to directly effect the outcome of strength. Furthermore, the sport that would most likely provide the most data on sprinting speed, track and field, is not a heavily studied sport. In order to gain metrics on the best ways to impact the outcome of speed in an athlete, I look to the NFL combine, which happens yearly and provides reliable records, in order to determine which traits most heavily effect sprinting speed in athletes. Because the human body can only undergo so much work in a given time period this application would be highly useful to high level coaches and athletes of all sports looking to see which training modalities to invest in to provide the desired athletic outcome.
+\end {abstract}
+%TC:break main
+%the command above serves to have a word count for the abstract
+
+\section*{Introduction}
+Sports performance across the majority of sports heavily relies on speed. From basketball, to soccer, to football speed helps players get to the same objectives the opposing team wants to reach, but sooner and with more ease. It can be weaponized in sports.
+The problem lies within pinpointing the best training modalities to use to develop speed. Most of the quickest basketball players and soccer players are born faster than their contemporaries. Any subsequent training is just expanding on those abilities. Thus it is hard to determine what type of training actually produces the best results.
+At this point in time it is widely accepted that the only sure fire way to develop speed is to run full speed. For track and field athletes this causes no issue, their training revolves around running. But how about for other sports that dedicate time., resources and energy into hours of practice without room for all out sprinting? This is where this application can be made useful. For coaches looking to maximize their athletes time, or for self-trained athletes building a training program this application can help them determine what athletic traits to spend time developing and also which colleges develop the best athletes. They can then look at those colleges training regimens to see how the college is producing top athletes in their respective categories. Because this app analyzes NFL draft data, this app can also be utilized by aspiring NFL prospects to see where they stand in previous drafts. This can help them determine what they need to work on and ascertain if they have a chance to be drafted into the NFL based on their performance metrics.
+Combine Compare will allow users to see and compare performance metrics from thousands of different collegiate athletes that have received the best and most effective training the world has to offer
+
+\section*{Performance Analysis using Combine Compare}
+
+Combine Compare not only allows you to see how different attributes like bench press, BMI, and height relate to speed. You can look at the heatmap to see which performance metrics you would like to investigate and include/exclude certain positions that may skew data negatively.
+You can investigate direct correlations with the scatter plot by selecting different numerical measurements. You can then go and see how certain attributes contribute to weather a player is drafted and the difference between drafted and undrafted players in the bar chart. This can help you determine what determines the success of athletes. The second bar chart allows you to see the top 6 schools for each of the athletic performance tests. You can use this information to investigate training modalities further.
+
+\section*{References}
+\bibliography{zHenriquesLab-Mendeley}
+
+
+\end{document}
