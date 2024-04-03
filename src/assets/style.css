@@ -1,6 +1,5 @@
 body {
     width: fit-content;
-    height: fit-content;
     background-color: #1a1a1a;
     color: #f1f1f1;
     font-family: sans-serif;
@@ -20,6 +19,9 @@ body {
     flex-direction: column;
     gap: 10px;
     transform: scale(1, .5);
+        position: relative;
+        top: -370px;
+    
     /* Adjust this value to increase or decrease the spacing */
 }
 
