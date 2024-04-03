@@ -1,4 +1,7 @@
 body {
+    transform: scale(0.75);
+    max-width: max-content;
+        margin: auto;
     background-color: #1a1a1a;
     color: #f1f1f1;
     font-family: sans-serif;
@@ -96,3 +99,9 @@ body {
             border-bottom: 1px solid #dee2e6;
             /* Horizontal lines between rows */
         }
+
+                @media only screen and (max-width: 600px) {
+                    body {
+                        font-size: 85%;
+                    }
+                }
