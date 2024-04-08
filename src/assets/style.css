@@ -3,6 +3,14 @@ body {
     background-color: #1a1a1a;
     color: #f1f1f1;
     font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            width: 200vw;
+            height: 200vh;
+            transform: scale(0.5);
+            transform-origin: 0 0;
+            overflow: auto;
+        
 }
         .title-container {
             text-align: center;
@@ -18,9 +26,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    transform: scale(1, .5);
-        position: relative;
-        top: -370px;
     
     /* Adjust this value to increase or decrease the spacing */
 }
@@ -72,18 +77,17 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    transform: scale(.6);
+
 }
 
 .checklist-container .checklist label {
-    transform: scale(.6);
+
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
 .checklist-container .checklist label span {
-    transform: scale(.6);
     margin-left: 8px;
 }
         .table td,
@@ -103,9 +107,3 @@ body {
             border-bottom: 1px solid #dee2e6;
             /* Horizontal lines between rows */
         }
-
-                @media only screen and (max-width: 600px) {
-                    body {
-                        font-size: 85%;
-                    }
-                }
